@@ -3,12 +3,107 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Helvetica, Arial, sans-serif
-    color: red;
+    font-family: Helvetica, Arial, sans-serif;
+    color: #362fa5;
     border: none;
 }
 
 body {
     background-image: url('../img/fundo1.png');
     background-size: cover;
+}
+
+textarea:focus, input:focus {
+    outline: none;
+    /* Tira a borda automática do input e text area */
+}
+
+a {
+    font-size: .8rem; 
+}
+
+a:hover {
+    color: #2115d1; 
+}
+
+/* container do login */
+#login-container {
+    background-color: #FFF5;
+    width: 400px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 20px 30px;
+    margin-top: 10vh;
+    border-radius: 12px;
+    text-align: center;
+}
+
+form {
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+label, input {
+    display: block;
+    width: 100%;
+    text-align: left;    
+}
+
+label {
+    font-weight: bold;
+    font-size: .8rem;
+}
+
+input {
+    border-bottom: 2px solid #323232;
+    padding: 10px;
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+input:focus {
+border-bottom: 2px solod #085588;
+}
+
+#forgot-pass {
+    text-align: right;
+    display: block;
+}
+
+input[type="submit"] {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    height:40px;
+    border-radius: 20px;
+    margin-top: 30px;
+    color: #FFF;
+    background-color: #08558b;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #145f1b;
+    transition: 0.5s;
+}
+
+/*  redes sociais  */
+#social-container, #social-container p {
+    margin-bottom: 20px; 
+}
+
+#social-container img {
+  /*  height: 40px;
+    width: 40px;   ´tamanho dos icones definido no html tbm */
+    background-color: rgb(189, 189, 196);
+    border-radius: 50%;
+    line-height: 40px;
+  /*color: #FFF; como no html os icones estão imagens png não uso cor pra fonte */
+    margin:6px;
+    cursor: pointer;
+}
+
+#register-container a {
+    color: rgb(32, 30, 30);
+    font-size: 1.2rem;
 }

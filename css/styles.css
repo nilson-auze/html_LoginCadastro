@@ -1,0 +1,14 @@
+/*  Geral  */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica, Arial, sans-serif
+    color: red;
+    border: none;
+}
+
+body {
+    background-image: url('../img/fundo1.png');
+    background-size: cover;
+}

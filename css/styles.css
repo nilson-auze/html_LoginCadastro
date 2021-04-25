@@ -1,11 +1,29 @@
 /*  Geral  */
+body h1 {
+    color: #16459e;  
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: Helvetica, Arial, sans-serif;
-    color: #362fa5;
+    color: rgb(32,30,30);
     border: none;
+    font-size: 20px;
+}
+
+#containerText {
+    display: flex;
+    align-items: center;
+    position: ;
+}
+
+#containerText h1 {
+    display: flex;
+    align-items: center;
+    position: relative;
+    left: 2rem;
 }
 
 body {
@@ -26,17 +44,29 @@ a:hover {
     color: #2115d1; 
 }
 
+h1 {
+    font-size: 35px;
+}
+
 /* container do login */
 #login-container {
     background-color: #FFF5;
-    width: 400px;
+    width: 380px;
     margin-right: auto;
     margin-left: auto;
     padding: 20px 30px;
     margin-top: 10vh;
-    border-radius: 12px;
+    border-radius: 30px;
     text-align: center;
 }
+
+#login-container a {
+    color: rgb(32,30,30);
+    color: rgb(32,30,30);
+    margin-top: -12px;
+    margin-bottom: 40px;
+    font-size: .8rem;
+} 
 
 form {
     margin-top: 30px;
@@ -56,8 +86,9 @@ label {
 
 input {
     border-bottom: 2px solid #323232;
-    padding: 10px;
+    padding:6px;
     font-size: 1rem;
+    border-radius: 10px;
     margin-bottom: 20px;
 }
 
@@ -83,13 +114,31 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
+    background-color: #145f1b19;
+    color: rgb(31,29,29);
+    transition: 0.5s;
+}
+
+input[type="submit1"] {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    height:40px;
+    border-radius: 20px;
+    margin-top: 30px;
+    color: #FFF;
+    background-color: #08558b;
+    cursor: pointer;
+}
+
+input[type="submit1"]:hover {
     background-color: #145f1b;
     transition: 0.5s;
 }
 
 /*  redes sociais  */
 #social-container, #social-container p {
-    margin-bottom: 20px; 
+    margin-bottom: 0px; 
 }
 
 #social-container img {
@@ -99,11 +148,25 @@ input[type="submit"]:hover {
     border-radius: 50%;
     line-height: 40px;
   /*color: #FFF; como no html os icones estão imagens png não uso cor pra fonte */
-    margin:6px;
+    margin:8px;
+    margin-bottom:30px;
     cursor: pointer;
 }
 
+#social-container img:hover {
+      background-color: rgb(215, 219, 150);
+      border-radius: 50%;
+      line-height: 40px;
+  }
+
 #register-container a {
-    color: rgb(32, 30, 30);
+    color: rgb(32,30,30);
+    margin-bottom: -20px;
     font-size: 1.2rem;
+}
+
+#register-container p {
+    color: rgb(32,30,30);
+    margin-bottom: -20px;
+    font-size: 1.1rem;
 }

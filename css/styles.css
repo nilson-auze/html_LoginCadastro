@@ -36,14 +36,6 @@ textarea:focus, input:focus {
     /* Tira a borda automática do input e text area */
 }
 
-a {
-    font-size: .8rem; 
-}
-
-a:hover {
-    color: #2115d1; 
-}
-
 h1 {
     font-size: 35px;
 }
@@ -92,10 +84,6 @@ input {
     margin-bottom: 20px;
 }
 
-input:focus {
-border-bottom: 2px solod #085588;
-}
-
 #forgot-pass {
     text-align: right;
     display: block;
@@ -119,51 +107,46 @@ input[type="submit"]:hover {
     transition: 0.5s;
 }
 
-input[type="submit1"] {
+input[type="submit2"] {
     text-align: center;
-    text-transform: uppercase;
     font-weight: bold;
-    height:40px;
+    height:28px;
     border-radius: 20px;
     margin-top: 30px;
-    color: #FFF;
-    background-color: #08558b;
+    color:  #08558b;
+    background-color: #a0acb4;
     cursor: pointer;
 }
 
-input[type="submit1"]:hover {
-    background-color: #145f1b;
+input[id="limp"]:hover {
+    color: rgb(51,49,49);
+    background-color: #f1f5f2;
+    transition: 0.5s;
+}
+
+input[id="canc"]:hover {
+    color: rgb(51,49,49);
+    background-color: #c43c3c;
     transition: 0.5s;
 }
 
 /*  redes sociais  */
-#social-container, #social-container p {
-    margin-bottom: 0px; 
-}
-
 #social-container img {
-  /*  height: 40px;
-    width: 40px;   ´tamanho dos icones definido no html tbm */
-    background-color: rgb(189, 189, 196);
+    height: 50px;
+    width: 50px;   /*tamanho dos icones*/
+    background-color: rgb(214, 214, 219);
     border-radius: 50%;
     line-height: 40px;
-  /*color: #FFF; como no html os icones estão imagens png não uso cor pra fonte */
     margin:8px;
     margin-bottom:30px;
     cursor: pointer;
 }
 
 #social-container img:hover {
-      background-color: rgb(215, 219, 150);
+      background-color: rgba(173, 173, 169, 0.137);
       border-radius: 50%;
       line-height: 40px;
   }
-
-#register-container a {
-    color: rgb(32,30,30);
-    margin-bottom: -20px;
-    font-size: 1.2rem;
-}
 
 #register-container p {
     color: rgb(32,30,30);

@@ -18,9 +18,16 @@ function pagEntrar() {
     window.location.href= "index3.html"
 }
 
-                         // senha usuário e senha pra teste
+                         // usuários e senhas pra teste
 function entrar() {
-   if (email.value == "helpdesk@admin.com" && password.value == "123admin") {
+   if (email.value == '' || password.value == '') {
+        alert("Preencha todos os campos!") 
+    } else if 
+             (email.value == "nilson@admin.com" && password.value == "adminNilson"  
+          ||  email.value == "jonathas@admin.com" && password.value == "adminJonathas" 
+          ||  email.value == "Lucas@admin.com" && password.value == "adminLucas" 
+          ||  email.value == "Paulo@admin.com" && password.value == "adminPaulo"
+          ||  email.value == "Matheus@admin.com" && password.value == "adminMatheus" ) {
       window.location.href= "DuvidaForm.html" 
     } else
      alert("Usuário ou senha invalidos!") 
